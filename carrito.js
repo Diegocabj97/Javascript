@@ -100,11 +100,6 @@ const actualizarTotal = (contenedor) => {
 let TotaldeProductos = 0
 let contador =document.getElementById("contador-productos")
 
-TotaldeProductos= 
-
-function actualizarContador() {
-  
-}
 
 
   
