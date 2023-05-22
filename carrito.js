@@ -45,7 +45,7 @@ const agregarAlCarrito = (id) => {
   
 	localStorage.setItem("carrito", JSON.stringify(carrito));
 	mostrarCarrito();
-	actualizarContador();
+	actualizarContador(true);
 };
 
 const mostrarCarrito = () => {
@@ -88,6 +88,7 @@ const eliminarProducto = (id) => {
 	carrito = carrito.filter((producto) => producto.id !== id);
 	localStorage.setItem("carrito", JSON.stringify(carrito));
 	mostrarCarrito();
+
 	actualizarContador()
   }
 ;
@@ -99,17 +100,19 @@ const actualizarTotal = (contenedor) => {
 
 function actualizarContador() {
 	const listaProductos = document.getElementsByClassName('productsCart')[0];
-	const productosEnCarrito = listaProductos.getElementsByTagName('li');
-	let contador = productosEnCarrito.length;
+	let contador = 0;
+	let i = 0;
   
-	if (contador === 0) {
-	  document.getElementById('contador-productos').textContent = '0';
-	} else {
-	  document.getElementById('contador-productos').textContent = contador.toString();
-	}
+	do {
+	  if (listaProductos.getElementsByTagName('li')[i]) {
+		contador++;
+	  }
+	  i++;
+	} while (i < listaProductos.getElementsByTagName('li').length);
+  
+	document.getElementById('contador-productos').textContent = contador.toString();
   }
   
-
   
 
 
