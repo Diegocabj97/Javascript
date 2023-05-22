@@ -45,8 +45,7 @@ const agregarAlCarrito = (id) => {
   
 	localStorage.setItem("carrito", JSON.stringify(carrito));
 	mostrarCarrito();
-  
-  actualizarContador();
+	actualizarContador();
 };
 
 const mostrarCarrito = () => {
@@ -89,7 +88,7 @@ const eliminarProducto = (id) => {
 	carrito = carrito.filter((producto) => producto.id !== id);
 	localStorage.setItem("carrito", JSON.stringify(carrito));
 	mostrarCarrito();
-  actualizarContador()
+	actualizarContador()
   }
 ;
 
@@ -97,10 +96,19 @@ const actualizarTotal = (contenedor) => {
 	const total = carrito.reduce((acumulador, producto) => acumulador + producto.precio * producto.cantidad, 0);
 	contenedor.textContent = `Total: $${total}`;
 };
-let TotaldeProductos = 0
-let contador =document.getElementById("contador-productos")
 
-
+function actualizarContador() {
+	const listaProductos = document.getElementsByClassName('productsCart')[0];
+	const productosEnCarrito = listaProductos.getElementsByTagName('li');
+	let contador = productosEnCarrito.length;
+  
+	if (contador === 0) {
+	  document.getElementById('contador-productos').textContent = '0';
+	} else {
+	  document.getElementById('contador-productos').textContent = contador.toString();
+	}
+  }
+  
 
   
 
