@@ -1,0 +1,1543 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Pr5600 {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.Pr5600 figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 10px 5px 20px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.Pr5600 figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.Pr5600 figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 90%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.Pr5600 figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.Pr5600 figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.Pr5600 figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.Pr5600:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrVideos {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrVideos figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrVideos figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrVideos figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrVideos figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrVideos figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrVideos figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrVideos:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrFuentes {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrFuentes figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrFuentes figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrFuentes figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrFuentes figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrFuentes figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrFuentes figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrFuentes:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrMouses {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrMouses figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrMouses figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrMouses figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrMouses figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrMouses figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrMouses figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrMouses:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrGabinetes {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrGabinetes figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrGabinetes figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrGabinetes figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrGabinetes figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrGabinetes figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrGabinetes figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrGabinetes:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrMousePads {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrMousePads figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrMousePads figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrMousePads figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrMousePads figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrMousePads figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrMousePads figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrMousePads:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrRams {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrRams figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrRams figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrRams figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrRams figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrRams figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrRams figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrRams:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrB450m {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrB450m figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrB450m figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrB450m figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrB450m figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrB450m figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrB450m figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrB450m:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.PrTeclados {
+  margin: 20px;
+  width: 250px;
+  align-items: center;
+  height: 250px;
+}
+.PrTeclados figure {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px, rgb(109, 108, 108);
+  cursor: pointer;
+}
+.PrTeclados figure img {
+  width: 100%;
+  height: 90%;
+  transition: all 0.5s ease-out;
+}
+.PrTeclados figure div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 11, 103, 123, 0.6;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.PrTeclados figure div h3 {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 300ms ease-out;
+  margin-top: 30px;
+}
+.PrTeclados figure:hover > .Procesadores {
+  opacity: 1;
+  visibility: visible;
+}
+.PrTeclados figure:hover > .Procesadores h3 {
+  text-align: center;
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.PrTeclados:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.mainContactos {
+  margin-bottom: 100px;
+  width: 100%;
+  background-size: cover;
+}
+
+.tituloContactos {
+  width: 100%;
+}
+.tituloContactos h1 {
+  width: 450px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.redes {
+  width: 450px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.redes a img {
+  width: 100px;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+#formContactos {
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 40px;
+  padding: 40px;
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+#formContactos h3 {
+  grid-area: Formulario;
+  text-align: start;
+  text-decoration: underline;
+}
+#formContactos label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+#formContactos label:nth-child(2) {
+  grid-area: nombre;
+}
+#formContactos label:nth-child(3) {
+  grid-area: apellido;
+}
+#formContactos label:nth-child(4) {
+  grid-area: consulta;
+}
+#formContactos label:nth-child(5) {
+  grid-area: telefono;
+}
+#formContactos label input {
+  background-color: rgba(0, 0, 0, 0.87);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid red;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+#formContactos .sendbtn {
+  grid-area: boton;
+}
+#formContactos input {
+  outline: none;
+  border: 1px solid;
+  margin: 5px;
+  width: 55%;
+  margin: auto;
+}
+#formContactos textarea {
+  margin: auto;
+  width: 80%;
+  outline: none;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.87);
+  font-size: small;
+  align-items: center;
+}
+
+.sendbtn {
+  text-align: center;
+}
+
+.contacto-info {
+  margin: auto;
+  width: 100%;
+}
+
+.bgContactos {
+  width: 100%;
+  background-size: contain;
+}
+
+.subt {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-align: center;
+  position: relative;
+}
+
+.formTCN label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.formTCN input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid red;
+  align-items: center;
+}
+.formTCN textarea {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid red;
+  align-items: center;
+}
+
+
+@media (max-width: 990px) {
+  .tituloContactos {
+    width: 100%;
+  }
+  .tituloContactos h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+  .redes {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .redes a img {
+    width: 50px;
+    margin: 15px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 510px) {
+  .tituloContactos {
+    text-align: center;
+    height: 130px;
+  }
+  #formContactos {
+    width: 100%;
+  }
+  .sendbtn {
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .sendbtn input {
+    width: 50%;
+    height: 50%;
+    font-size: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 438) {
+  .mainContactos h3 {
+    color: red;
+    font-size: 10px;
+  }
+}
+.Marcas {
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  background-color: rgb(0, 0, 0);
+  position: static;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.carrouselCards {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.carousel-inner {
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: 600px;
+}
+
+.carousel-item {
+  transition: transform 1s ease, opacity 0.9s ease-out;
+}
+.carousel-item img {
+  width: 100%;
+}
+
+.card img {
+  align-items:center;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+@media (max-width: 550px) {
+  .carrouselCards p {
+    margin-left: -900px;
+  }
+}
+@media (max-width: 898px) {
+  .carrouselCards {
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .carousel-inner {
+    height: auto;
+    margin-top: 0px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+    margin-top: 0px;
+  }
+}
+.carousel-inner2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: 600px;
+}
+
+.mainPr {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.mainPr h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.ItemsPr {
+  border: 1px solid rgba(95, 94, 94, 0.377);
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(134, 134, 134, 0.973);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .ItemsPr {
+    border: none;
+    width: 100%;
+    margin-left: -10px;
+    box-shadow: none;
+  }
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.Comprar {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background: #141414;
+  color: #fff;
+  border: 5px solid;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+li .card {
+  width: 90%;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+.card{
+  width: 29%;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+
+.ComprarI {
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 50px;
+  background: #141414;
+  color: #fff;
+  border: 5px solid;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+footer .container {
+  font-family: "PT Sans", sans-serif !important;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 300;
+  box-sizing: border-box;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  min-height: 30px;
+  background: #232323;
+  background-image: url(../images/background/bg-footer.jpg);
+  background-repeat: repeat;
+  background-position: top;
+  color: #9c9c9c;
+  color: white;
+}
+footer .container .row a {
+  text-decoration: none;
+  color: white;
+}
+footer b {
+  background-color: rgb(1, 120, 255);
+}
+
+.mainIndex {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid rgba(128, 128, 128, 0.253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(134, 134, 134, 0.973);
+}
+.mainIndex .clasesCarr {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.containerIndex {
+  display: flex;
+  background-color: rgb(236, 234, 234);
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.containerIndex p {
+  border: solid 1px grey;
+  border-radius: 50px;
+  width: 100%;
+}
+.containerIndex div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+}
+.containerIndex div b {
+  width: 100%;
+  font-size: 28px;
+}
+.containerIndex h3 {
+  color: rgb(1, 120, 255);
+}
+.containerIndex h3 i {
+  color: rgb(1, 120, 255);
+}
+.containerIndex span {
+  color: rgb(1, 120, 255);
+  font-size: 28px;
+}
+.containerIndex span i {
+  color: rgb(1, 120, 255);
+  font-size: 28px;
+}
+
+.headerIndex {
+  background-image: url(/assets/img/bannerIndex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+.headerIndex h1 {
+  background-color: rgb(0, 0, 0);
+  opacity: 80%;
+}
+.headerIndex img {
+  width: 100%;
+}
+
+
+
+header h4 {
+  margin: auto;
+  background-color: rgb(1, 120, 255);
+  color: rgb(255, 255, 255);
+  height: 80px;
+  width: 50%;
+  padding: 25px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  ;
+}
+#mensajeSinResultados{
+  width: auto;
+  height: 80px;
+  display: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.filtroOfertas {
+  border: 1px solid rgba(128, 128, 128, 0.336);
+  border-radius: 10px;
+  height: fit-content;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  box-sizing: border-box;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+.cardsOfertas h5 {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.product-list p{
+  color:rgb(2, 2, 2);
+  font-weight: bold;
+}
+.product-list h4{
+  color:red ;
+  text-decoration:line-through;
+  font-weight: bold;
+  font-size: medium;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
+.card-body .product-price{
+    color: rgb(19, 2, 255);
+    font-weight: bold;
+}
+
+#dropdownOrdenar{
+  margin: auto;
+  display: flex;
+  justify-content: end;
+
+}
+
+.mainOfertas {
+  margin: auto;
+  border: 1px solid rgba(172, 172, 172, 0.212);
+  box-shadow: 0px 1px 10px rgba(134, 134, 134, 0.973);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product-list li{
+  list-style: none;
+  width: 33%;
+}
+.product-list .cardsOfertas{
+  width: 11rem;
+}
+
+#formgarantia {
+  margin-left: 5%;
+}
+
+.descripcion {
+  margin-left: 50px;
+  background-color: rgba(0, 127, 245, 0.336);
+}
+
+main section {
+  margin-top: 100px;
+}
+
+@media (max-width: 990px) {
+  #formgarantia {
+    margin: 10px;
+  }
+  .descripcion {
+    margin: 10px;
+    margin-top: 50px;
+    background-color: rgba(0, 127, 245, 0.336);
+  }
+}
+.Comprar{
+  height: 60px;
+}
+.Comprar span {
+  position: relative;
+  z-index: 2;
+  transition: 0.3s ease all;
+  font-weight: bold;
+
+}
+
+.Comprar::after {
+  content: "";
+  width: 140%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(-100% - 60px);
+  border-bottom: 60px solid #ff2828;
+  border-right: 60px solid transparent;
+  transition: 0.3s ease-in-out all;
+}
+.Comprar span:hover::after{
+  font-weight: bold;
+}
+.Comprar:hover::after {
+  left: 0;
+  
+}
+
+.ComprarI span {
+  position: relative;
+  z-index: 2;
+  transition: 0.3s ease all;
+}
+
+.ComprarI::after {
+  content: "";
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  background: red;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transition: 0.3s ease-in-out all;
+  transform-origin: center;
+  border-radius: 100px;
+}
+
+.ComprarI:hover::after {
+  transform: scale(400);
+}
+
+nav {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+nav ul :hover {
+  background-color: rgb(3, 47, 97);
+  transition: 0.7s;
+}
+nav ul :hover li :hover {
+  background-color: rgb(3, 47, 97);
+  transition: 0.7s;
+}
+
+/*Todos los Media*/
+@media (max-width: 1610px) {
+  .containerIndex {
+    padding: 20px;
+    width: 100%;
+  }
+  .containerIndex p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .containerIndex span {
+    text-align: center;
+    color: rgb(1, 120, 255);
+    font-size: 20px;
+  }
+  .containerIndex span i {
+    color: rgb(1, 120, 255);
+    font-size: 20px;
+  }
+  .containerIndex div {
+    text-align: center;
+    margin: 20px;
+  }
+  .containerIndex div b {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 704px) {
+  .containerIndex {
+    padding: 10px;
+    width: 100%;
+  }
+  .containerIndex p {
+    border: none;
+    width: 100%;
+  }
+  .containerIndex span {
+    color: rgb(1, 120, 255);
+    font-size: 15px;
+  }
+  .containerIndex span i {
+    color: rgb(1, 120, 255);
+    font-size: 15px;
+  }
+  .containerIndex div {
+    margin: 10px;
+  }
+  .containerIndex div b {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 584px) {
+  .containerIndex {
+    padding: 0px;
+    width: 100%;
+  }
+  .containerIndex p {
+    border: none;
+    width: 100%;
+  }
+  .containerIndex span {
+    color: rgb(1, 120, 255);
+    font-size: 15px;
+  }
+  .containerIndex span i {
+    color: rgb(1, 120, 255);
+    font-size: 15px;
+  }
+  .containerIndex div {
+    margin: 10px;
+  }
+  .containerIndex div b {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 421px) {
+  .containerIndex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .containerIndex div:nth-child(2) p {
+    margin-left: -30px;
+  }
+  .containerIndex p {
+    width: 100%;
+  }
+  .containerIndex span {
+    color: rgb(1, 120, 255);
+    font-size: 15px;
+  }
+  .containerIndex span i {
+    color: rgb(1, 120, 255);
+    font-size: 15px;
+  }
+  .containerIndex div {
+    margin: 10px;
+    width: 100%;
+  }
+  .containerIndex div b {
+    width: 100%;
+    font-size: 15px;
+  }
+  .containerIndex div p :nth-child(3) {
+    font-size: 50px;
+  }
+}
+@media (max-width: 898px) {
+  .headerIndex {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1290px) {
+  .mainIndex {
+    margin: 20px;
+    border: none;
+    box-shadow: none;
+  }
+}
+@media (max-width: 534px) {
+  header h4 {
+    text-align: center;
+    height: 80px;
+    width: 30%;
+    margin-top: 50px;
+    padding: 15px;
+  }
+}
+@media (max-width: 456px) {
+  header h4 {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 12px;
+    font-size: 20px;
+  }
+}
+
+/* Carrito */
+
+
+
+.add-to-cart,
+.remove {
+	display: block;
+	border: none;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 0.8rem;
+	text-decoration: none;
+	transition: background-color 0.2s ease;
+}
+.remove {
+	margin-top: 0;
+	margin-bottom: auto;
+	margin-right: 0;
+}
+
+.add-to-cart:hover,
+.remove:hover {
+	background-color: #666;
+}
+.productsCart li {
+	border-bottom: 1px solid #333;
+	padding: 1rem;
+	display: flex;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.productsCart img {
+	display: block;
+	width: 50px;
+  margin-right: 30px;
+	height: auto;
+	object-fit: contain;
+}
+.productsCart .product-description{
+  display: none;
+}
+.productsCart .product-price{
+  font-weight: bold;
+  font-size: small;
+}
+.productsCart .product-stock{
+  font-weight: bold;
+  font-size: small; 
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.productsCart li{
+  margin-left: -20px;
+}
+.productsCart .totalCarrito{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.productsCart h3{
+  
+  font-size: small;
+}
+.empty {
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.icon-cart{
+  width: 40px;
+  height: 40px;
+  stroke: #000;
+  position: relative;
+  margin-top: 25px;
+}
+.icon-cart:hover{
+  cursor: pointer;
+}
+
+
+/* Globales */
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    color: #333;
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0 40px 0;
+    margin-bottom: 50px;
+}
+.eliminar{
+  width: 90px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+  
+}
+.container-icon{
+  
+  position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.count-products:hover{
+  cursor: pointer;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.container-cart-products{
+    position: absolute;
+    top: 70px;
+    right: 0;
+
+    background-color: #fff;
+    width: 900%;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    
+}
+.cart-empty {
+  display: block;
+}
+
+.cart-empty.hidden {
+  display: none;
+}
+
+.list-group-item{
+  display: flex;
+  justify-content: space-between;
+  border-color: 10px black;
+  
+}
+.cantidad{
+  border-color: black 10px;
+  width: 15px;
+}
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.titulo-producto-carrito{
+    font-size: 20px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+
+
+
+/* Main */
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}

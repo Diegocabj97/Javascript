@@ -1,0 +1,29 @@
+.mainPr {
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+	& h4{
+		text-align: center;
+		text-decoration: underline;
+	}
+}
+.ItemsPr{
+	border: 1px solid rgba(95, 94, 94, 0.377);
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px rgba(134, 134, 134, 0.973);
+	width: fit-content;
+	height: fit-content;
+	margin: auto;
+}
+@media (max-width:500px) {
+
+	.ItemsPr{
+		border: none;
+		width: 100%;
+		margin-left: -10px;
+		box-shadow: none;
+		
+}
+}

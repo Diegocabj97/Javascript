@@ -1,0 +1,202 @@
+
+.mainContactos {
+	margin-bottom: 100px;
+	width: 100%;
+	
+	background-size: cover;
+}
+.tituloContactos{
+	width: 100%;
+	& h1{
+		width: 450px;
+		text-align: center;
+		background-color: white;
+		border-radius: 10px;
+	}
+}
+	
+.redes{
+	width: 450px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	& a{
+		img{
+			width: 100px;
+			margin: 20px;
+			border-radius: 50px;
+		}
+	}
+	}
+
+.formContactos {
+	margin: auto;
+	color: $color1;
+	background-color: $background-color1;
+	font-size: 24px;
+	font-weight: 40px;
+	padding: 40px;
+	border-radius: 50px;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	h3 {
+		grid-area: Formulario;
+		text-align: start;
+		text-decoration: underline;
+	}
+	label {
+		&:nth-child(2) {
+			grid-area: nombre;
+		}
+		&:nth-child(3) {
+			grid-area: apellido;
+		}
+		&:nth-child(4) {
+			grid-area: consulta;
+		}
+		&:nth-child(5) {
+			grid-area: telefono;
+		}
+		display: flex;
+		flex-direction: column;
+		padding: 5px;
+
+		
+		input{
+			background-color: $color2;
+			outline: none;
+			border: none;
+			border-bottom: 1px solid red;
+			color: $color1;
+			align-items: center;
+		}
+	}
+	.sendbtn {
+		grid-area: boton;
+	}
+	input {
+		outline: none;
+		border: 1px solid;
+		margin: 5px;
+		width: 55%;
+		margin: auto;
+						
+	}
+	textarea {
+		margin: auto;
+		width: 80%;
+		outline: none;
+		border: none;
+		background-color: $color1;
+		color: $color2;
+		font-size: small;
+		align-items: center;
+	}
+	}
+.sendbtn {
+	text-align: center;
+}
+.contacto-info{
+	margin: auto;
+	width: 100%;
+}
+.bgContactos{
+	width: 100%;
+	background-size: contain;
+
+}
+.subt {
+	color: $color1;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+
+}
+.formTCN {
+	label {
+		display: flex;
+		flex-direction: column;
+		padding: 5px;
+	}
+	input {
+		outline: none;
+		border: none;
+		border-bottom: 1px solid red;
+		align-items: center;
+	}
+	textarea {
+		outline: none;
+		border: none;
+		border-bottom: 1px solid red;
+		align-items: center;
+	}
+}
+
+@media (max-width:990px){
+
+	.tituloContactos{
+		width: 100%;
+		
+		& h1{
+		width: 100%;
+		font-size: 24px;
+	}
+}
+	
+	.redes{
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+			& a{
+				img{
+					width: 50px;
+					margin: 15px;
+					border-radius: 50px;
+				}
+			}
+	}
+}
+@media (max-width:510px){
+		.tituloContactos {
+			text-align: center;
+			height: 130px;
+			
+		}
+		.formContactos{
+			width: 100%;
+		}
+		.sendbtn{
+			display: flex;
+			padding: 10px;
+			input{
+				width: 50%;
+				height: 50%;
+				font-size: 50%;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				
+			
+			}
+			margin-top: 20px;
+						
+
+				
+		}
+		
+		
+	}
+	@media(max-width:438){
+		.mainContactos {
+		
+			h3{
+				color: red;
+				font-size: 10px;
+			}
+		}
+
+	}
