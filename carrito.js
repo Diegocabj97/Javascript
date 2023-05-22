@@ -6,6 +6,7 @@ btnCart.addEventListener("click", function () {
 });
 
 
+
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const mostrarProductos = (productos) => {
@@ -30,6 +31,16 @@ const mostrarProductos = (productos) => {
 		const boton = document.getElementById(`agregar-${producto.id}`);
 		boton.addEventListener("click", () => {
 			agregarAlCarrito(producto.id);
+			Toastify({
+				text: "Producto agregado!",
+				className: "info",
+				style: {
+				  background: "linear-gradient(to right, #00b09b, #96c93d)",
+				  duration: 3000,
+				  gravity: top,
+				}
+			   
+			  }).showToast();
 		});
 	});
 };
@@ -42,10 +53,9 @@ const agregarAlCarrito = (id) => {
 		const producto = carrito.find((producto) => producto.id === id);
 		producto.cantidad++;
 	}
-  
+	
 	localStorage.setItem("carrito", JSON.stringify(carrito));
 	mostrarCarrito();
-	actualizarContador(true);
 };
 
 const mostrarCarrito = () => {
@@ -77,6 +87,16 @@ const mostrarCarrito = () => {
 			const boton = document.getElementById(`eliminar-${producto.id}`);
 			boton.addEventListener("click", () => {
 				eliminarProducto(producto.id);
+				Toastify({
+					text: "Producto Eliminado!",
+					className: "info",
+					style: {
+					  background: "linear-gradient(to right, #141414,  #ff2828)",
+					  duration: 3000,
+					  gravity: top,
+					}
+				   
+				  }).showToast();
 			});
 		});
 	} else {
@@ -89,7 +109,6 @@ const eliminarProducto = (id) => {
 	localStorage.setItem("carrito", JSON.stringify(carrito));
 	mostrarCarrito();
 
-	actualizarContador()
   }
 ;
 
@@ -98,23 +117,9 @@ const actualizarTotal = (contenedor) => {
 	contenedor.textContent = `Total: $${total}`;
 };
 
-function actualizarContador() {
-	const listaProductos = document.getElementsByClassName('productsCart')[0];
-	let contador = 0;
-	let i = 0;
-  
-	do {
-	  if (listaProductos.getElementsByTagName('li')[i]) {
-		contador++;
-	  }
-	  i++;
-	} while (i < listaProductos.getElementsByTagName('li').length);
-  
-	document.getElementById('contador-productos').textContent = contador.toString();
-  }
-  
-  
-
 
 mostrarProductos(productos);
 mostrarCarrito();
+
+
+

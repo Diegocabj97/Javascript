@@ -1,7 +1,10 @@
+
+
 * {
   margin: 0;
   padding: 0;
 }
+
 
 .Pr5600 {
   margin: 20px;
@@ -1377,30 +1380,8 @@ header{
   position: relative;
 }
 
-.count-products{
-    position: absolute;
-    top: 55%;
-    right: 0;
-
-    background-color: #000;
-    color: #fff;
-    width: 25px;
-    height: 25px;
-    
 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-.count-products:hover{
-  cursor: pointer;
-}
-
-#contador-productos{
-    font-size: 12px;
-}
 
 .container-cart-products{
     position: absolute;
