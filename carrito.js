@@ -6,7 +6,6 @@ btnCart.addEventListener("click", function () {
 });
 
 
-
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const mostrarProductos = (productos) => {
@@ -36,7 +35,7 @@ const mostrarProductos = (productos) => {
 				className: "info",
 				style: {
 				  background: "linear-gradient(to right, #00b09b, #96c93d)",
-				  duration: 3000,
+				  duration: 222000,
 				  gravity: top,
 				}
 			   
@@ -119,7 +118,4 @@ const actualizarTotal = (contenedor) => {
 
 
 mostrarProductos(productos);
-mostrarCarrito();
-
-
-
+mostrarCarrito(); 
