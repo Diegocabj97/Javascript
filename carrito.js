@@ -65,7 +65,9 @@ const mostrarCarrito = () => {
 		productsCart.classList.add("productsCart");
 		contenedorCarrito.appendChild(productsCart);
 		const contenedorTotal = document.createElement("p");
-    contenedorTotal.classList.add("totalCarrito")
+		
+    	contenedorTotal.classList.add("totalCarrito")
+
 		actualizarTotal(contenedorTotal);
 		contenedorCarrito.appendChild(contenedorTotal);
 		carrito.forEach((producto) => {
@@ -113,7 +115,7 @@ const eliminarProducto = (id) => {
 
 const actualizarTotal = (contenedor) => {
 	const total = carrito.reduce((acumulador, producto) => acumulador + producto.precio * producto.cantidad, 0);
-	contenedor.textContent = `Total: $${total}`;
+	contenedor.textContent = `Total: $${total} `;
 };
 
 

@@ -1307,11 +1307,10 @@ nav ul :hover li :hover {
 .productsCart li{
   margin-left: -20px;
 }
-.productsCart .totalCarrito{
-  width: 100%;
+.totalCarrito{
+  width: 90px;
   display: flex;
-  justify-content: center;
-  align-self: center;
+  flex-direction: row;
 }
 .productsCart h3{
   
@@ -1374,6 +1373,14 @@ header{
   background-color: red;
   color: white;
   
+}
+.PayTotalCart{
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: red;
+  color: rgb(228, 228, 231);
+  margin: 0;
 }
 .container-icon{
   
@@ -1454,12 +1461,15 @@ header{
     cursor: pointer;
 }
 
-.cart-total{
+.productsCart .cart-total{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    
     padding: 20px 0;
     gap: 20px;
+    margin-top: -60px;
 }
 
 .cart-total h3{
