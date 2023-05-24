@@ -18,7 +18,6 @@ const mostrarProductos = (productos) => {
         <div class="card-body">
             <h5 class="card-title">${producto.nombre}</h5>         
             <p class="product-description">${producto.descripcion}</p>
-            
             <h4> $${producto.precioAnterior}</h4>   
             <p class="product-price">$${producto.precio}</p>
             <button id="agregar-${producto.id}" class="Comprar">Agregar al carrito</button>
@@ -65,7 +64,6 @@ const mostrarCarrito = () => {
 		productsCart.classList.add("productsCart");
 		contenedorCarrito.appendChild(productsCart);
 		const contenedorTotal = document.createElement("p");
-		
     	contenedorTotal.classList.add("totalCarrito")
 
 		actualizarTotal(contenedorTotal);

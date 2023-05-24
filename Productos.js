@@ -1,0 +1,51 @@
+const productos = [
+	{
+		id: "1",
+		nombre: "Motherboard Asus Prime A320M-K",
+		imagen: "../assets/img/mother1.jpeg",
+        precioAnterior:87000,
+		precio: 64000,
+		descripcion: "AM4 - Asus Prime A320M-K",
+	},
+	{
+		id: "2",
+		nombre: "Mouse Logitech G703",
+		imagen: "../assets/img/Mouse1.jpeg",
+        precioAnterior:22000,
+		precio: 19000,
+		descripcion: "Mouse Gamer Logitech G703",
+	},
+	{
+		id: "3",
+		nombre: "Nvidia RTX 3060",
+		imagen: "../assets/img/nvidia3060.jpg",
+        precioAnterior:208000,
+		precio: 168000,
+		descripcion: "La mas potente y buscada del mercado",
+	},
+	{
+		id: "4",
+		nombre: "Nvidia RTX 3080",
+		imagen: "../assets/img/nvidia3060.jpg",
+        precioAnterior:340000,
+		precio: 260000,
+		descripcion: "La mas potente del mercado",
+	},
+	{
+		id: "5",
+		nombre: "Nvidia RTX 3090",
+		imagen: "../assets/img/nvidia3060.jpg",
+        precioAnterior:525000,
+		precio: 425000,
+		descripcion: "La mas potente del mercado",
+	},
+	{
+		id: "6",
+		nombre: "Fuente EVGA 850W",
+		imagen: "../assets/img/EVGA.png",
+        precioAnterior:35000,
+		precio: 26000,
+		descripcion: "La fuente favorita de muchos",
+	},
+
+];
