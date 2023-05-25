@@ -1,3 +1,7 @@
+const productos=[];
+
+let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
 const btnCart = document.querySelector(".container-cart-icon");
 const containerCartProducts = document.querySelector(".container-cart-products");
 
@@ -5,26 +9,34 @@ btnCart.addEventListener("click", function () {
 	containerCartProducts.classList.toggle("hidden-cart");
 });
 
+class AllProducts{
+	constructor(id,nombre,imagen,precioAnterior,precio,descripcion){
+		this.id=id;
+		this.nombre=nombre;
+		this.imagen=imagen;
+		this.precioAnterior=precioAnterior;
+		this.precio=precio;
+		this.descripcion=descripcion
+	}
+  }
 
-let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-
-const mostrarProductos = (productos) => {
+  const mostrarProductos = (productos) => {
 	const contenedorProductos = document.querySelector(".product-list");
 	contenedorProductos.innerHTML = "";
 	productos.forEach((producto) => {
 		const li = document.createElement("li");
 		li.innerHTML = `<div class="card my-5 m-3 ">
-    <img class="card-img-top" src="${producto.imagen}" alt="${producto.nombre}">
-        <div class="card-body">
-            <h5 class="card-title">${producto.nombre}</h5>         
-            <p class="product-description">${producto.descripcion}</p>
-            <h4> $${producto.precioAnterior}</h4>   
-            <p class="product-price">$${producto.precio}</p>
-            <button id="agregar-${producto.id}" class="Comprar">Agregar al carrito</button>
+	<img class="card-img-top" src="${producto.imagen}" alt="${producto.nombre}">
+		<div class="card-body">
+			<h5 class="card-title">${producto.nombre}</h5>         
+			<p class="product-description">${producto.descripcion}</p>
+			<h4> $${producto.precioAnterior}</h4>   
+			<p class="product-price">$${producto.precio}</p>
+			<button id="agregar-${producto.id}" class="Comprar">Agregar al carrito</button>
 
 </div>
 </div>`;
-            
+			
 		contenedorProductos.appendChild(li);
 		const boton = document.getElementById(`agregar-${producto.id}`);
 		boton.addEventListener("click", () => {
@@ -41,7 +53,20 @@ const mostrarProductos = (productos) => {
 			  }).showToast();
 		});
 	});
+
 };
+  
+  
+fetch("/Productos.json")
+.then(Response=>Response.json())
+.then(data=>{
+  data.forEach(producto => {
+	  productos.push(new AllProducts(producto.id,producto.nombre,producto.imagen,producto.precioAnterior,producto.precio,producto.descripcion));
+  });
+  mostrarProductos(productos);
+});
+
+
 
 const agregarAlCarrito = (id) => {
 	if (!carrito.some((producto) => producto.id === id)) {
@@ -117,5 +142,4 @@ const actualizarTotal = (contenedor) => {
 };
 
 
-mostrarProductos(productos);
 mostrarCarrito(); 
