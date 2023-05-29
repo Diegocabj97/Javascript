@@ -57,7 +57,7 @@ class AllProducts{
 };
   
   
-fetch("/Productos.json")
+fetch("./Productos.json")
 .then(Response=>Response.json())
 .then(data=>{
   data.forEach(producto => {
